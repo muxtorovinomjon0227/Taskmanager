@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import 'package:provider/provider.dart';
-import 'package:taskmanager/ofline/screens/screens.dart';
+import 'package:taskmanager/database/screens/screens.dart';
 
 import '../data_base_models.dart';
 import '../database_helper.dart';

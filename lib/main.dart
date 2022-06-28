@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'ofline/main_provide.dart';
-import 'ofline/screens/screens.dart';
+import 'database/main_provide.dart';
+import 'database/screens/screens.dart';
 
 
 void main() {

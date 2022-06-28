@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:taskmanager/ofline/widget/widget.dart';
+import 'package:taskmanager/database/widget/widget.dart';
 
 import '../app_colors.dart';
 import '../data_base_models.dart';
