@@ -385,12 +385,12 @@ class _MyHomePageScreenState extends State<MyHomePageScreen> {
               children: <Widget>[
                 GestureDetector(
                     onTap: () {},
-                    child: Icon(Icons.add_circle_outlined),),
+                    child: Icon(Icons.menu),),
                 GestureDetector(
                     onTap: () {},
                     child: Container(
                       margin: EdgeInsets.only(right: 15),
-                      child: Icon(Icons.add_circle_outlined)
+                      child: Icon(Icons.account_circle)
                     )),
               ],
             ),
@@ -545,21 +545,21 @@ class _MainScreenState extends State<MainScreen> {
           elevation: 0,
           items: <BottomNavigationBarItem>[
             BottomNavigationBarItem(
-              activeIcon: Icon(Icons.height),
-              icon: Icon(Icons.height),
+              activeIcon: Icon(Icons.home),
+              icon: Icon(Icons.home),
               label: "",
             ),
             BottomNavigationBarItem(
-                activeIcon: Icon(Icons.height),
-                icon: Icon(Icons.height),
+                activeIcon: Icon(Icons.edit),
+                icon: Icon(Icons.edit),
                 label: ''),
             BottomNavigationBarItem(
-                activeIcon: Icon(Icons.height),
-                icon:Icon(Icons.height),
+                activeIcon: Icon(Icons.calendar_today_rounded),
+                icon:Icon(Icons.calendar_today_rounded),
                 label: ''),
             BottomNavigationBarItem(
-                activeIcon:Icon(Icons.height),
-                icon: Icon(Icons.height),
+                activeIcon:Icon(Icons.settings),
+                icon: Icon(Icons.settings),
                 label: ''),
           ],
           currentIndex: selectedIndex,
@@ -573,11 +573,6 @@ class _MainScreenState extends State<MainScreen> {
     );
   }
 }
-
-
-///4
-
-
 
 class SecondPage extends StatefulWidget {
   const SecondPage({Key? key}) : super(key: key);

@@ -4,15 +4,10 @@ import 'package:provider/provider.dart';
 import 'database/main_provide.dart';
 import 'database/screens/screens.dart';
 
-/// Shu joyda yoziladdi
-/// Shu joyda o'zgaradi
-
 
 void main() {
   runApp(
     MultiProvider(providers: [
-
-      /// Shu yarga yana boshqa prividerlar yossa bo'ladi
       ChangeNotifierProvider(
         create: (_) => MainProvider(),
       )
