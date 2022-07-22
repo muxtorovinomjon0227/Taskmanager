@@ -6,6 +6,7 @@ import 'database/screens/screens.dart';
 
 /// Shu joyda yoziladdi
 /// Shu joyda o'zgaradi
+/// va yana
 
 
 void main() {
